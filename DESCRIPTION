@@ -1,7 +1,8 @@
 Package: rhoR
 Title: Rho for Inter Rater Reliability
-Version: 1.0.0
-Authors@R: c(person("David", "Williamson Shaffer", email = "dws@education.wisc.edu", role = c("aut")),person("Brad", "Rogers", email = "bjrogers2@wisc.edu", role = c("aut")),person("Brendan", "Eagan", email="beagan@wisc.edu", role = c("aut")),person("Cody L", "Marquart", email="cody.marquart@wisc.edu", role = c("cre", "aut")))
+Authors@R: c(person("Brendan", "Eagan", email="beagan@wisc.edu", role = c("aut")),person("Brad", "Rogers", email = "bjrogers2@wisc.edu", role = c("aut")), person("Rebecca","Pozen", email = "rpozen@wisc.edu", role = c("aut")),person("Cody L", "Marquart", email="cody.marquart@wisc.edu", role = c("cre", "aut")),person("David", "Williamson Shaffer", email = "dws@education.wisc.edu", role = c("aut")))
+Maintainer: Cody L Marquart <cody.marquart@wisc.edu>
+Version: 1.1.0.0
 Description: Rho is used to test the generalization of inter rater reliability
     (IRR) statistics. Calculating rho starts by generating a large number of
     simulated, fully-coded data sets: a sizable collection of hypothetical
@@ -27,11 +28,11 @@ Collate: 'rhoR.R' 'rho.R' 'rhoK.R' 'rhoSet.R' 'rhoCT.R' 'kappa.R'
         'generateKPs.R' 'getBootPvalue.R' 'getHandSet.R' 'getR.R'
         'getTestSet.R' 'prset.R'
 NeedsCompilation: no
-Packaged: 2016-10-18 21:42:51 UTC; clmarquart
-Author: David Williamson Shaffer [aut],
+Packaged: 2017-02-16 20:09:13 UTC; clmarquart
+Author: Brendan Eagan [aut],
   Brad Rogers [aut],
-  Brendan Eagan [aut],
-  Cody L Marquart [cre, aut]
-Maintainer: Cody L Marquart <cody.marquart@wisc.edu>
+  Rebecca Pozen [aut],
+  Cody L Marquart [cre, aut],
+  David Williamson Shaffer [aut]
 Repository: CRAN
-Date/Publication: 2016-10-18 23:51:04
+Date/Publication: 2017-02-16 22:38:21
