@@ -1,4 +1,4 @@
-b47303da0b6f19185563ce46860bc6ae *DESCRIPTION
+7604ef94bc96269bb693d4e64022b530 *DESCRIPTION
 180209480cb36b70c2aa63534b3c4ab3 *LICENSE
 ade3937a58bd165da41270ce3a05b435 *NAMESPACE
 5e2621fc58341afbb47df07e446bdea0 *NEWS.md
@@ -12,7 +12,7 @@ fea9c1613caedb4f4d980ffc7be1ccaf *R/checkBRPKcombo.R
 60dca0d4c9de1580e362384aa45edd27 *R/contingencyTable.R
 2cc427364a89e08a4a46dbe8ca5aec8c *R/contingencyToSet.R
 9a44f078157ed5ea2fb69fae20797b8a *R/createRandomSet.R
-abba05de9ad95b47eb8b5befbef367f0 *R/createSimulatedCodeSet.R
+0740fa75b17ebeac8b4bd694fad0b389 *R/createSimulatedCodeSet.R
 b4c6c58589d169348e897f04aac6528d *R/genPKcombo.R
 4cf82177884c4b34ecde78f9e7fbcf67 *R/genPcombo.R
 8fcbd833c538904e49613942b88088a1 *R/generateKPs.R
@@ -35,12 +35,16 @@ f0724c41fa8c4978eedcc414142af74e *data/codeSet.csv.gz
 e1a05ec302552dbf7e5af30b3233a6f6 *data/codeSet.rda
 ca5487dd3a78a6aa1d71d8f50808547d *data/contingencyTable.csv.gz
 221e947a21dc2e8ec4816c7471fab14f *data/contingencyTable.rda
+cca9ad33228e15890433b34d78f93330 *demo/00Index
+1e8a70185ef26329f602acc65051efb9 *demo/backup/testing-fp.R
+73ed717303e19e6460a7950b002d5da2 *demo/backup/testingSimCodeSet.R
+72cedde090c0477e87d580c94de2643f *demo/calc-rho.R
 e7a6f36f8f7307599a8b44c530565c8c *man/baserate.Rd
 631ad4b1d674fcc30305baf63423ac58 *man/baserateCT.Rd
 0d85db9a7d6b7a06ea49c894dcbead11 *man/baserateSet.Rd
 271f779bc1287d1804f8813e61ac3366 *man/codeSet.Rd
 f6415383a096b08ba5f33bb34aa94af9 *man/contingencyTable.Rd
-62eabdbf5c2badc806aaed09fd08f60d *man/createSimulatedCodeSet.Rd
+7cf60c03e90cf727797a40762c779ee7 *man/createSimulatedCodeSet.Rd
 897ad249429dd68ee2ba4dfc8e85e434 *man/getHandSet.Rd
 9817ad35ae1a19a29d7427fe82ce1efe *man/getHandSetIndices.Rd
 d788ba10606462919a52f7631937e383 *man/getTestSet.Rd
