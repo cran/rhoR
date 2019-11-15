@@ -1,5 +1,7 @@
-#' rhoR: A package for computing rho.
+#' @title rhoR: A package for computing rho.
+#' @name rhoR
 #' 
+#' @description 
 #' Rho is used to test the generalization of inter rater reliability (IRR)
 #' statistics, in this case Cohen's Kappa.
 #' 
@@ -28,6 +30,14 @@
 #' @section rhoMin: 
 #' Use \code{\link{rhoMin}}
 #'   
-#' @docType package
-#' @name rhoR
+#' @import stats
+#' @import utils
+#' @importFrom methods is
+#' @importFrom Rcpp sourceCpp
+#' 
+#' @useDynLib rhoR
 NULL
+
+# @title additional attribtues
+# @description Additional attribtues appending to rating.sets
+additional_attributes <- c("agreement", "baserate", "kappa")
