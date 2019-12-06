@@ -1,4 +1,4 @@
-b28c2bea2ef0e262e2ee5eadead287f7 *DESCRIPTION
+9a3147c128bb6e2fa7b6c51ed60e3ded *DESCRIPTION
 180209480cb36b70c2aa63534b3c4ab3 *LICENSE
 177e47605952d5a1d67cee746bcb9861 *NAMESPACE
 3befec1b9562f27ee19e5b8bb1323e9c *NEWS.md
@@ -117,7 +117,7 @@ cf08c258ad3f4bd3e095a399718daa24 *tests/testthat/test-genPKcombo.R
 46763122fb888032e44585ff03bf5519 *tests/testthat/test-rhoFile.R
 5ff68dcc0cf1ec00e8f1007e87020a58 *tests/testthat/test-test-createSimulatedCodeSet.R
 af920a12056bb340156e74fcd5d2d66b *tests/testthat/test-test-getHandSetIndices.R
-7664eb4ba9dc804f5a54b99c06bbff20 *tests/testthat/test-util-methods.R
+f2073998d6d66fff0cac266b677e5e76 *tests/testthat/test-util-methods.R
 721044363a28b2269f8eff08351c38df *tests/testthat/test.calckKappa.R
 2f74710232b2ec26163342172309d181 *tests/testthat/test.getHandSet.R
 6361f6f71113347eb9663bce01a5466c *tests/testthat/test.getTestSet.R
