@@ -1,7 +1,7 @@
 # rhoR <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
-[![build status](https://git.doit.wisc.edu/epistemic-analytics/qe-packages/rhoR/badges/master/build.svg)](https://git.doit.wisc.edu/epistemic-analytics/qe-packages/rhoR/commits/master)
-[![coverage](https://s3-us-west-2.amazonaws.com/rhor.qe-libs.org/coverage-master.svg)](http://rhor.qe-libs.org/coverage/master/index.html)
+[![pipeline status](https://gitlab.com/epistemic-analytics/qe-packages/rhoR/badges/master/pipeline.svg)](https://gitlab.com/epistemic-analytics/qe-packages/rhoR/pipelines?page=1&scope=branches&ref=master)
+[![coverage report](https://gitlab.com/epistemic-analytics/qe-packages/rhoR/badges/master/coverage.svg)](https://gitlab.com/epistemic-analytics/qe-packages/rhoR/-/commits/master)
 [![cran status](https://www.r-pkg.org/badges/version-ago/rhoR)](https://CRAN.R-project.org/package=rhoR) 
 [![cran downloads](https://cranlogs.r-pkg.org/badges/grand-total/rhoR)](https://cranlogs.r-pkg.org/badges/grand-total/rhoR) 
 
@@ -23,23 +23,16 @@ threshold).
 ## Installation
 
 ### Install release version from CRAN
-[![build status](https://git.doit.wisc.edu/epistemic-analytics/qe-packages/rhoR/badges/master/build.svg)](https://git.doit.wisc.edu/epistemic-analytics/qe-packages/rhoR/commits/master)
-[![coverage](https://s3-us-west-2.amazonaws.com/rhor.qe-libs.org/coverage-master.svg)](http://rhor.qe-libs.org/coverage/master/index.html)
 
-[![cran status](https://www.r-pkg.org/badges/version-ago/rhoR)](https://CRAN.R-project.org/package=rhoR) 
-[![cran downloads](https://cranlogs.r-pkg.org/badges/grand-total/rhoR)](https://cranlogs.r-pkg.org/badges/grand-total/rhoR) 
 ```
 install.packages("rhoR")
 ```
 
 ### Install development version
-[![coverage](https://s3-us-west-2.amazonaws.com/rhor.qe-libs.org/coverage-develop.svg)](http://rhor.qe-libs.org/coverage/develop/index.html)
-[![build status](https://git.doit.wisc.edu/epistemic-analytics/qe-packages/rhoR/badges/develop/build.svg)](https://git.doit.wisc.edu/epistemic-analytics/qe-packages/rhoR/commits/develop)
 
 ```
-devtools::install_git(url = "https://git.doit.wisc.edu/epistemic-analytics/qe-packages/rhoR", ref="develop")
+devtools::install_git(url = "https://gitlab.com/epistemic-analytics/qe-packages/rhoR/", ref="master")
 ```
-
 
 ---
 ## Resources

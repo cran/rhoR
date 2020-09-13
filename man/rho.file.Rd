@@ -4,10 +4,19 @@
 \alias{rho.file}
 \title{Rho using a file}
 \usage{
-rho.file(x, col1, col2, OcSBaserate = NULL,
-  testSetBaserateInflation = 0, OcSLength = 10000, replicates = 800,
-  ScSKappaThreshold = 0.9, ScSKappaMin = 0.4, ScSPrecisionMin = 0.6,
-  ScSPrecisionMax = 1)
+rho.file(
+  x,
+  col1,
+  col2,
+  OcSBaserate = NULL,
+  testSetBaserateInflation = 0,
+  OcSLength = 10000,
+  replicates = 800,
+  ScSKappaThreshold = 0.9,
+  ScSKappaMin = 0.4,
+  ScSPrecisionMin = 0.6,
+  ScSPrecisionMax = 1
+)
 }
 \arguments{
 \item{x}{The observed kappa value, \code{\link[=getTestSet]{testSet}} or \code{\link{contingencyTable}} that will be tested with rho}

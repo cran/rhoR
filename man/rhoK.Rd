@@ -4,10 +4,19 @@
 \alias{rhoK}
 \title{Rho (kappa)}
 \usage{
-rhoK(x, OcSBaserate, testSetLength, testSetBaserateInflation = 0,
-  OcSLength = 10000, replicates = 800, ScSKappaThreshold = 0.9,
-  ScSKappaMin = 0.4, ScSPrecisionMin = 0.6, ScSPrecisionMax = 1,
-  method = "standard")
+rhoK(
+  x,
+  OcSBaserate,
+  testSetLength,
+  testSetBaserateInflation = 0,
+  OcSLength = 10000,
+  replicates = 800,
+  ScSKappaThreshold = 0.9,
+  ScSKappaMin = 0.4,
+  ScSPrecisionMin = 0.6,
+  ScSPrecisionMax = 1,
+  method = "standard"
+)
 }
 \arguments{
 \item{x}{The observed kappa value, \code{\link[=getTestSet]{testSet}} or \code{\link{contingencyTable}} that will be tested with rho}
