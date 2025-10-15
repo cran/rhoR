@@ -14,7 +14,8 @@ rho(
   ScSKappaThreshold = 0.9,
   ScSKappaMin = 0.4,
   ScSPrecisionMin = 0.6,
-  ScSPrecisionMax = 1
+  ScSPrecisionMax = 1,
+  method = "standard"
 )
 }
 \arguments{
@@ -36,7 +37,9 @@ rho(
 
 \item{ScSPrecisionMin}{The minimum precision to be used for generation of simulated \code{\link[=getTestSet]{codeSets}} in the null hypothesis distribution for rho}
 
-\item{ScSPrecisionMax}{The maximum precision to be used for generation of simulated \code{\link[=getTestSet]{codeSets}} in the null hypothesis distribution for rho}
+\item{ScSPrecisionMax}{The maximum precision to be used for generation of simulated \code{\link[=getTestSet]{codeSets}} in the null hypothesis distribution for rho,}
+
+\item{method}{character vector choosing implementation "standard" (Default) or "c"}
 }
 \value{
 rho for the given parameters

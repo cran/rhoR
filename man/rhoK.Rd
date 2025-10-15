@@ -37,7 +37,7 @@ rhoK(
 
 \item{ScSPrecisionMin}{The minimum precision to be used for generation of simulated \code{\link[=getTestSet]{codeSets}} in the null hypothesis distribution for rho}
 
-\item{ScSPrecisionMax}{The maximum precision to be used for generation of simulated \code{\link[=getTestSet]{codeSets}} in the null hypothesis distribution for rho}
+\item{ScSPrecisionMax}{The maximum precision to be used for generation of simulated \code{\link[=getTestSet]{codeSets}} in the null hypothesis distribution for rho,}
 
 \item{method}{set to "c" to calculate using the C++ implmentation. Defaults to "standard"}
 }
